@@ -9,7 +9,13 @@
     "Rubrics" : ["Presentation","Projects","Contact"]
     },
     "Presentation":{
-
+        "Title" : "About Me",
+        "Text" : [
+            "J'ai commencé mon parcours technologique avec un don pour la conception, j'ai plongé dans le codage tout au long de mon programme de licence en informatique.",
+            "Actuellement en deuxième année, j'ai appris en autodidacte au-delà de la salle de classe, en m'attaquant à des logiciels et à des projets complets.",
+            "Maintenant, avec une meilleure compréhension du codage, combinée à mon amour pour le design, je suis impatient de travailler avec les autres.",
+            "Je suis toujours prête à apprendre davantage et à travailler sur des projets passionnants."
+        ]
     },
     "Contact":{}
 }
