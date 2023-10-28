@@ -4,9 +4,13 @@ import Themes from "../Themes.json";
 import PresentationR from "./Rubrics/PresentationR";
 import Projects from "./Rubrics/Projects";
 import Contact from "./Rubrics/Contact";
+import Footer from "./Footer";
 
 export default function Rubrics() {
   const [Selected, setSelected] = useState(Themes.General.Rubrics[0]);
+
+
+  
   const onClick = (e) => {
     setSelected(e.target.name);
   };
@@ -25,9 +29,10 @@ export default function Rubrics() {
         </div>
       </div>
       <div className="flex flex-col border border-black mt-5">
-        {Selected == Themes.General.Rubrics[0] ? <PresentationR /> : null}
-        {Selected == Themes.General.Rubrics[1] ? <Projects /> : null}
-        {Selected == Themes.General.Rubrics[2] ? <Contact /> : null}
+        <PresentationR />
+        <Projects/>
+        <Contact/>
+        <Footer/>
       </div>
     </div>
   );

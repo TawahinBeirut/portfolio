@@ -17,5 +17,11 @@
             "Je suis toujours prête à apprendre davantage et à travailler sur des projets passionnants."
         ]
     },
-    "Contact":{}
+    "Contact":{
+        "Title" : "Contact",
+        "Number" : "0781987780",
+        "E-mail" : "gheribij59@gmail.com",
+        "Git-Hub" : "http://Tawahin-beirut.git"
+        
+    }
 }
