@@ -1,8 +1,15 @@
 {
+    "General":{
     "Profession" : "SOFTWARE DEVELOPER",
     "Prenom1" : "JASSER",
     "Prenom2" : "ABD-EL-RAHMEN",
     "Nom" : "GHERIBI",
     "Qualitites" : ["Motivé","Organisé","Travailleur"],
-    "ShortPresentation" : "Etudiant en Deuxième année de B.U.T d'Informatique"
+    "ShortPresentation" : "Etudiant en Deuxième année de B.U.T d'Informatique",
+    "Rubrics" : ["Presentation","Projects","Contact"]
+    },
+    "Presentation":{
+
+    },
+    "Contact":{}
 }
