@@ -10,7 +10,7 @@ export default function Projects() {
   return (
     <div className='flex justify-center mt-20'>
       <div className='flex flex-col'>
-      <div className='text-center font-bold'>Projects</div>
+      <div className='text-center font-bold font-Presentation text-3xl'>Projects</div>
       <div className="flex flex-wrap justify-center gap-16">
         
         {/* {ProjectsList.map(el => ( */}

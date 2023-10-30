@@ -16,24 +16,11 @@ export default function Rubrics() {
   };
 
   return (
-    <div className="-mt-24">
-      <div className="flex justify-center">
-        <div className="w-5/6 border border-black flex justify-around">
-          {Themes.General.Rubrics.map((el) => (
-            <Button
-              title={el}
-              onClick={onClick}
-              selected={Selected == el ? true : false}
-            />
-          ))}
-        </div>
-      </div>
-      <div className="flex flex-col border border-black mt-5">
+      <div className="flex flex-col border border-black -mt-32">
         <PresentationR />
         <Projects/>
         <Contact/>
         <Footer/>
       </div>
-    </div>
   );
 }
