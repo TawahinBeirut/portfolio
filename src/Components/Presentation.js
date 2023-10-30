@@ -7,9 +7,9 @@ export default function Presentation() {
   return (
     <div className="h-screen overflow-hidden">
         <div className='h-5/6 bg-gradient-to-tr from-Abd-el-Bg1 to-Abd-el-Bg2 flex justify-stretch drop-shadow-2xl'>
-            <h1 className="font-Button text-xl ml-5">Portfolio</h1>
-            <img src={img}></img>
-            <div className='flex flex-col w-4/6 justify-start mt-9'>
+            <motion.h1 initial={{opacity: 0,y : 10}} animate={{opacity: 1 , y: 0}} transition={{delay: 1}} className="font-Button text-xl ml-5">Portfolio</motion.h1>
+            <motion.img initial={{opacity: 0, x : -10}} animate={{opacity: 1,x : 0}} transition={{delay: 0.5}}src={img}></motion.img>
+            <div className='flex flex-col w-4/6 justify-start mt-7'>
                 <div className="flex justify-center"><h1 className='text-7xl text-center'>{Themes.General.Profession}</h1></div>
                 <div className='flex justify-center'><h1 className='text-3xl mt-5 font-thin text-center'>{Themes.General.Prenom1} {Themes.General.Prenom2}</h1></div>
                 <div className='flex justify-center'><h1 className='text-3xl font-thin'>{Themes.General.Nom}</h1></div>
