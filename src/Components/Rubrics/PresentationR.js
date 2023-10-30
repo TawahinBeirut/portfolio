@@ -3,7 +3,7 @@ import Themes from '../../Themes.json'
 
 export default function PresentationR() {
   return (
-    <div className='flex justify-center mt-20'>
+    <div className='flex justify-center mt-20 drop-shadow-xl'>
       <div className='w-4/6 flex text-center'>
       <div>
       <h1 className='font-bold font-Presentation text-3xl'>{Themes.Presentation.Title}</h1>
