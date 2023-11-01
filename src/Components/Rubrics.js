@@ -16,7 +16,7 @@ export default function Rubrics() {
   };
 
   return (
-      <div className="flex flex-col -mt-32">
+      <div className="flex flex-col -mt-16">
         <PresentationR />
         <Projects/>
         <Contact/>
