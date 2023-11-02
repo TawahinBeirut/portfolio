@@ -4,17 +4,17 @@
     "Prenom1" : "JASSER",
     "Prenom2" : "ABD-EL-RAHMEN",
     "Nom" : "GHERIBI",
-    "Qualitites" : ["Motivé","Organisé","Travailleur"],
-    "ShortPresentation" : "Etudiant en Deuxième année de B.U.T d'Informatique",
+    "Qualitites" : ["Motivé","Organisé","Polyvalent"],
+    "ShortPresentation" : "Etudiant en Deuxième année de B.U.T Informatique",
     "Rubrics" : ["Presentation","Projects","Contact"]
     },
     "Presentation":{
         "Title" : "About Me",
         "Text" : [
-            "J'ai commencé mon parcours technologique avec un don pour la conception, j'ai plongé dans le codage tout au long de mon programme de licence en informatique.",
-            "Actuellement en deuxième année, j'ai appris en autodidacte au-delà de la salle de classe, en m'attaquant à des logiciels et à des projets complets.",
-            "Maintenant, avec une meilleure compréhension du codage, combinée à mon amour pour le design, je suis impatient de travailler avec les autres.",
-            "Je suis toujours prête à apprendre davantage et à travailler sur des projets passionnants."
+            "Je suis étudiant en informatique avec une passion prononcée pour le développement web, le développement logiciel et la cybersécurité.",
+            "Chaque ligne de code que j'écris, chaque application que je construis et chaque système que je sécurise sont le reflet de mon engagement envers l'excellence technique.",
+            "La capacité de transformer une idée en un projet concret, de structurer les étapes de développement et de veiller à ce que tout se déroule comme prévu est pour moi tout aussi satisfaisant que la programmation elle-même.",
+            "Je suis toujours prêt à en apprendre davantage et à travailler sur des projets passionnants."
         ]
     },
     "Contact":{

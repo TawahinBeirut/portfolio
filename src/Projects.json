@@ -19,10 +19,10 @@
     },
     {
         "Title" : "Unifree",
-        "Description" : "Projet Non commencé, Plateforme de partage de Formations"
+        "Description" : "Projet Non commencé. Plateforme de partage de Formations"
     },{
         "Title" : "Hospital Graph",
-        "Description" : "Premier Logiciel en Java, modelisation d'un Graphe ",
+        "Description" : "Premier Logiciel en Java. Modelisation d'un Graphe",
         "Lien-Git" : "https://github.com/TawahinBeirut/Hospital_Graph.git"
     }
 ]
