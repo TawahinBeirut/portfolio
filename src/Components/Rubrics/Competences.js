@@ -1,4 +1,5 @@
 import React from "react";
+import Themes from "../../Themes.json"
 
 export default function Competences(){
 
