@@ -3,9 +3,25 @@ import Themes from "../../Themes.json"
 
 import {motion} from 'framer-motion'
 
+import { useInView } from 'react-intersection-observer';
+
+const RubricsVariants = {
+    visible : {opacity : 1, x : 0, transition: {duration: 0.5}},
+    hidden : {opacity: 0, x : -10}
+  };
+
 export default function Competences(){
 
     
+  const controls = useAnimation();
+  const [ref,inView] = useInView();
+
+  useEffect(() => {
+    if (inView){
+      controls.start("visible")
+    }
+  },[controls,inView])
+
     return (
         <div className='flex justify-center mt-20 drop-shadow-xl'>
       <div className='w-4/6 flex text-center'>
