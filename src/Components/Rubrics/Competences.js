@@ -1,6 +1,8 @@
 import React from "react";
 import Themes from "../../Themes.json"
 
+import {motion} from 'framer-motion'
+
 export default function Competences(){
 
     
