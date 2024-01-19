@@ -1,7 +1,7 @@
 import React from "react";
 import Themes from "../../Themes.json"
 
-import {motion} from 'framer-motion'
+import {motion,useAnimation} from 'framer-motion'
 
 import { useInView } from 'react-intersection-observer';
 
