@@ -25,16 +25,26 @@
         "Git-Hub" : "Tawahin Beirut"
         
     },
-    "Competences":{
-        "Title": "Competences",
-        "Text" : [
-            "En matière de développement informatique, mes compétences sont très larges.",
-            "De l'indémodable C, langage mère de tous les autres, en passant par le Javascript, très utilisé dans le web et le mobile, je peux aussi coder en Java pour des applications un peu plus lourdes, nécessitant une gestion fine de la mémoire.",
-            "Le PHP, pour les sites web dynamiques, et Python, pour sa simplicité et sa puissance, font également partie de ma panoplie.",
-            "Outre ces langages, j'ai acquis une compétence solide dans divers frameworks. React, pour le développement d'interfaces utilisateur efficaces et interactives ; NodeJs et Express, pour le développement côté serveur et la gestion des requêtes ainsi que l'interaction avec une base de données",
-            "Au-delà de ces compétences en programmation, j'ai aussi des connaissances en outils de versioning et d'exploitation comme Git et Linux. Je peux gérer différentes versions d'un même programme grâce à Git et m'occuper de l'administration système basique grâce à Linux. J'ai également des compétences en serveur Web Apache, ce qui me permet de gérer le déploiement d'applications web.",
-            "En outre, je suis capable de travailler sur la conception d'interfaces utilisateur avec Figma. Cet outil me permet de réaliser des maquettes et des prototypes interactifs, ce qui est indispensable pour avoir une idée précise du rendu final d'une application avant de passer à sa réalisation.",
-            " Au-delà des compétences techniques, j'ai développé au cours de ma carrière une grande polyvalence. En effet, j'estime que dans notre domaine, il est essentiel de pouvoir s'adapter aux différentes situations et technologies que nous pouvons rencontrer. De plus, je suis convaincu que les compétences sociales sont tout aussi importantes que les compétences techniques. Ainsi, j'ai appris à communiquer efficacement avec mes collègues et clients pour bien comprendre leurs besoins et leurs contraintes."
-        ]
-    }
+    "Competences":[
+        {
+            "Title" : "Langages de Programmation",
+            "Description" : "Maitrise du Language C / Java / Javascript et Autres"
+        },
+        {
+            "Title" : "Frameworks",
+            "Description": "Maitrise des frameworks React,NextJs, Laravel et Autres"
+        },
+        {
+            "Title" : "Capacité à travailler en équipe",
+            "Description" : "Possède une solide capacité à travailler en équipe en informatique, avec une expertise en utilisation de Git pour la gestion de versions et l'adoption de méthodes Agile."
+        },
+        {
+            "Title" : "Anglais",
+            "Description" : "Capable de communiquer efficacement en anglais, tant à l'oral qu'à l'écrit."
+        },
+        { 
+            "Title" : "Autres outils",
+            "Description": "Je maîtrise parfaitement les outils de design tels que Figma, ainsi que le système d'exploitation Linux et le serveur web Apache."
+        }
+    ]
 }
