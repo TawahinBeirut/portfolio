@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "chakra": "^0.0.3",
     "framer-motion": "^10.16.4",
     "react": "^18.2.0",
     "react-intersection-observer": "^9.5.2",
