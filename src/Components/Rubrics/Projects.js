@@ -2,17 +2,18 @@ import React, { useEffect } from 'react'
 import ProjectsList from '../../Projects.json'
 import Project from './Project';
 
+import img1 from "../../Assets/image.png"
 import img from '../../Assets/FinalDesign.png';
 
-import img1 from '../../Assets/UniShareMinia.png'
-import img2 from '../../Assets/ComradeMinia.png';
-import img3 from '../../Assets/KebabMinia.png';
-import img4 from '../../Assets/UnifreeMinia.png'
+import img2 from '../../Assets/UniShareMinia.png'
+import img3 from '../../Assets/ComradeMinia.png';
+import img4 from '../../Assets/KebabMinia.png';
+import img5 from '../../Assets/UnifreeMinia.png'
 
 import {motion} from 'framer-motion'
 
 export default function Projects() {
-  const tab = [img1,img2,img3,img4];
+  const tab = [img1,img2,img3,img4,img5];
 
   let i = -1 ;
   
