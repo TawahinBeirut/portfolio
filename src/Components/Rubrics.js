@@ -6,7 +6,7 @@ import Projects from "./Rubrics/Projects";
 import Contact from "./Rubrics/Contact";
 import Footer from "./Footer";
 import Competences from "./Rubrics/Competences";
-import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
+import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react"
 export default function Rubrics() {
   const [Selected, setSelected] = useState(Themes.General.Rubrics[0]);
 
